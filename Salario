@@ -1,0 +1,59 @@
+using System;
+
+namespace SALARIOS
+{
+    class Program
+    {
+
+
+
+        static void Main(string[] args)
+        {
+
+            Cargar();
+
+            Mostrar();
+
+        }
+
+
+         static void Cargar() 
+        {
+
+            Console.WriteLine("Digite el sueldo 1");
+            int num1 = Convert.ToInt32 (Console.ReadLine());
+
+            Console.WriteLine("Digite el sueldo 2");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Digite el sueldo 3");
+            int num3 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Digite el sueldo 4");
+            int num4 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Digite el sueldo 5");
+            int num5 = Convert.ToInt32(Console.ReadLine());
+
+        }
+
+
+         static void Mostrar() 
+        {
+
+            Console.WriteLine("el sueldo 1 es ");
+         
+
+            Console.WriteLine("el sueldo 2 es ");
+
+            Console.WriteLine("el sueldo 3 es ");
+
+            Console.WriteLine("el sueldo 4 es ");
+
+            Console.WriteLine("el sueldo 5 es ");
+            
+
+        }
+
+    }
+}
